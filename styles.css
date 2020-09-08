@@ -14,8 +14,19 @@ Body::after{
 
 /* Header Setting */
 
-.Navigator{
+.Navigator {
   height:125px;
   background-color: yellow;
   margin: 7px 7px;
+}
+
+.blocchi{
+  float: left;
+
+}
+.Primo-blocco{
+  background-color: violet;
+  height: 300px;
+  width: 20%;
+  margin-left: 7px;
 }
