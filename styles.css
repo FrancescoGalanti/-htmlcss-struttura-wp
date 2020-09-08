@@ -1,3 +1,5 @@
+
+
 /* General Setting */
 
 *{
@@ -9,6 +11,7 @@
 body{
   padding: 10px;
 }
+
 
 /* header setting */
 
@@ -57,22 +60,17 @@ main .main-content{
 main .sidebar2{
 width: 30%;
 background-color: violet;
-height: 160px;
+height: 180px;
 }
 
-main.sidebar3{
-  width: 30%;
-  background-color: violet;
-  height:160px;
-  display: inline-block;
+/* setting quarto blocco */
+
+#Lista{
+  margin-top: 30px;
 }
 
-
-
-
-
-
+/* setting footer */
 footer{
-  height: 200px;
-  background: blue
+  height: 100px;
+  background-color: blue
 }
