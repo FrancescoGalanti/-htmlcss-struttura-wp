@@ -28,7 +28,8 @@ main{
 
 main .sidebar,
 main .main-content,
-main .sidebar2{
+main .sidebar2,
+main .sidebar3{
   float: left;
 
 }
@@ -56,8 +57,19 @@ main .main-content{
 main .sidebar2{
 width: 30%;
 background-color: violet;
-height: 180px;
+height: 160px;
 }
+
+main.sidebar3{
+  width: 30%;
+  background-color: violet;
+  height:160px;
+  display: inline-block;
+}
+
+
+
+
 
 
 footer{
