@@ -5,3 +5,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+Body::after{
+  display: table;
+  clear: both;
+  content: attr();
+}
+
+/* Header Setting */
+
+.Navigator{
+  height:125px;
+  background-color: yellow;
+  margin: 7px 7px;
+}
