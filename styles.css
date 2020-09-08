@@ -22,7 +22,27 @@ header{
 
 /* Main setting */
 main{
-  background-color: Grey;
   height: 400px;
   margin-bottom: 10px;
+}
+
+main .sidebar,
+main .main-content
+main .sidebar2{
+  float: left;
+
+}
+
+
+
+main .sidebar{
+  width:20%;
+  background-color:violet;
+  height:175px;
+}
+
+
+footer{
+  height: 200px;
+  background: blue
 }
