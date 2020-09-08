@@ -6,27 +6,23 @@
   box-sizing: border-box;
 }
 
-Body::after{
-  display: table;
-  clear: both;
-  content: attr();
+body{
+  padding: 10px;
 }
 
-/* Header Setting */
+/* header setting */
 
-.Navigator {
-  height:125px;
-  background-color: yellow;
-  margin: 7px 7px;
+header{
+  background: yellow;
+  height: 175px;
+  margin-bottom: 10px;
 }
 
-.blocchi{
-  float: left;
 
-}
-.Primo-blocco{
-  background-color: violet;
-  height: 300px;
-  width: 20%;
-  margin-left: 7px;
+
+/* Main setting */
+main{
+  background-color: Grey;
+  height: 400px;
+  margin-bottom: 10px;
 }
