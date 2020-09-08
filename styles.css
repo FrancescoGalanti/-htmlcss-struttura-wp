@@ -33,21 +33,31 @@ main .sidebar2{
 
 }
 
-
+/*Setting Primo blocco */
 
 main .sidebar{
   width:28%;
   background-color:violet;
   height:175px;
-
+  margin-right: 2%;
 }
+
+/* Setting Secondo blocco */
 
 main .main-content{
-  width: 40%;
+  width: 38%;
   height:400px;
   background-color: purple;
+  margin-right: 2%;
 }
 
+/* Setting Terzo blocco */
+
+main .sidebar2{
+width: 30%;
+background-color: violet;
+height: 180px;
+}
 
 
 footer{
